@@ -8,9 +8,9 @@ import thumbLangEN from '../public/images/info/lang_en.jpg'
 import thumbLangES from '../public/images/info/lang_es.jpg'
 import thumbLangDE from '../public/images/info/lang_de.jpg'
 
-import thumbJobRH from '../public/images/info/job_roadhouse.jpg'
+import thumbJobCR from '../public/images/info/job_catering.jpg'
 import thumbJobPT from '../public/images/info/job_teacher.jpg'
-import thumbJobPW from '../public/images/info/job_waitress.jpg'
+import thumbJobAV from '../public/images/info/job_aviation.jpg'
 import thumbJobCRI from '../public/images/info/job_cri.jpg'
 
 import thumbOtherPlane from '../public/images/info/other_plane.jpg'
@@ -56,8 +56,13 @@ const Info = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <InfoGridItem id="roadhouse" thumbnail={thumbJobRH} title="Roadhouse">
-            2022-Present
+          <InfoGridItem id="aviation" thumbnail={thumbJobAV} title="Aviation">
+            2024-Current
+          </InfoGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <InfoGridItem id="catering" thumbnail={thumbJobCR} title="Catering">
+            2020-2024
           </InfoGridItem>
         </Section>
         <Section delay={0.3}>
@@ -67,11 +72,6 @@ const Info = () => (
             title="Private Teacher"
           >
             2021-2022
-          </InfoGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <InfoGridItem id="waitress" thumbnail={thumbJobPW} title="Waitress">
-            2020-2021
           </InfoGridItem>
         </Section>
         <Section delay={0.3}>

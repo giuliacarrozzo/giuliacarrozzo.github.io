@@ -45,7 +45,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Giulia Carrozzo
           </Heading>
-          <p>Team Leader ( @Roadhouse )</p>
+          <p>Gate/Check-in Agent ( @MXP - Aviapartner )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -79,19 +79,19 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Giulia works in a{' '}
+          Giulia works and is based at the{' '}
           <Link
             as={NextLink}
             href="/info/roadhouse"
             passhref
           >
-            resturant chain
+            Malpensa Airport
           </Link>
-          {' '} and is based in Malpensa with a passion for aviation, music
-          and all kinds of art. She has a knack for all things regarding
-          organization, from planning and designing all the way to solving
-          real-life problems in the most analog way. When not online, she
-          loves a nice walk or a bicycle ride.
+          {' '} with a passion for aviation, music and all kinds of art.
+          She has a knack for all things regarding organization, from
+          planning and designing all the way to solving real-life
+          problems in the most analog way. When not online, she loves a
+          nice walk or a bicycle ride.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -130,7 +130,7 @@ const Home = () => (
           School &quot;Paolo Giovio&quot; of Como
         </BioSection>
         <BioSection>
-          <BioYear>2020 - Present</BioYear>
+          <BioYear>2020 - 2024</BioYear>
           Working in the{' '}
           <Link
             as={NextLink}
@@ -139,6 +139,17 @@ const Home = () => (
           >
             catering world
           </Link>.
+        </BioSection>
+        <BioSection>
+          <BioYear>2024 - Present</BioYear>
+          Finally entered the{' '}
+          <Link
+            as={NextLink}
+            href="/info"
+            passhref
+          >
+            aviation sector
+          </Link>!
         </BioSection>
       </Section>
 
@@ -150,11 +161,11 @@ const Home = () => (
           <Link href="https://www.taylorswift.com/" target="_blank">
             Taylor Swift
           </Link>
-          , Art, Animals (esp. my {' '}
+          , Aviation ✈️, Art, Animals (esp. my {' '}
           <Link href="/info/edo">
             Edo
           </Link>
-          !), Home Planning, Aviation and Flowers!
+          !), Home Planning and Flowers!
         </Paragraph>
       </Section>
 
