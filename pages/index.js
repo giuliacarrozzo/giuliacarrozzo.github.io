@@ -134,7 +134,7 @@ const Home = () => (
           Working in the{' '}
           <Link
             as={NextLink}
-            href="/info"
+            href="/info/catering"
             passhref
           >
             catering world
@@ -145,7 +145,7 @@ const Home = () => (
           Finally entered the{' '}
           <Link
             as={NextLink}
-            href="/info"
+            href="/info/aviation"
             passhref
           >
             aviation sector
